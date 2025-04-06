@@ -14,7 +14,7 @@ body {
 }
 
 .logo {
-  width: 200px;
+  width: 250px;
   height: auto;
   margin-bottom: 1rem;
 }
@@ -81,10 +81,6 @@ body {
   .navbar ul {
     flex-direction: column;
     gap: 1rem;
-  }
-
-  .logo {
-    width: 90px;
   }
 
   .header-content {
