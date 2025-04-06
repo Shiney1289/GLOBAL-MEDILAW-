@@ -18,6 +18,7 @@ body {
   gap: 1.5rem;
   margin: 0;
   padding: 0;
+  flex-wrap: wrap;
 }
 
 .navbar a {
@@ -29,12 +30,15 @@ body {
 .header-content {
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   padding: 2rem;
-  gap: 2rem;
+  gap: 1.5rem;
+  text-align: center;
 }
 
 .logo {
-  width: 150px;
+  width: 120px;
   height: auto;
 }
 
@@ -43,13 +47,13 @@ body {
 }
 
 .title {
-  color: #007BFF; /* Blue color */
-  font-size: 2.5rem;
+  color: #007BFF;
+  font-size: 2rem;
   margin: 0;
 }
 
 .tagline {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin-top: 0.5rem;
 }
 
@@ -59,10 +63,36 @@ body {
 }
 
 .about h2 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 .about p {
   font-size: 1rem;
   max-width: 700px;
+  margin: auto;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .navbar {
+    justify-content: center;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
+
+  .about {
+    padding: 1.5rem;
+  }
 }
