@@ -9,7 +9,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem 1rem 1rem;
+  gap: 0.3rem;
+  padding: 1rem 1rem 0.5rem;
   text-align: center;
 }
 
@@ -17,7 +18,7 @@ body {
   width: 250px;
   height: auto;
   display: block;
-  margin: 10px auto 5px auto;
+  margin: 10px auto 0 auto;
 }
 
 .title {
