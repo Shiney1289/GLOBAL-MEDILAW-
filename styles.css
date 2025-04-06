@@ -1,59 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Global MEDILAW Organisation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: white;
-  color: #333;
-}
+  <header class="header">
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-header {
-  background-color: #2c7a4f;
-  padding: 15px 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  <section class="hero">
+    <img src="medilaw.logo" alt="Global MEDILAW Logo" class="logo" />
+    <h1 class="title">Global MEDILAW Organisation</h1>
+    <p class="tagline">Healing Hands, Justice Minds</p>
+  </section>
 
-.logo {
-  height: 100px;
-}
+  <section class="about">
+    <h2>About Us</h2>
+    <p>The Global MEDILAW Organisation is dedicated to integrating medical and legal services to help communities around the world.</p>
+  </section>
 
-nav a {
-  margin-left: 20px;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
-
-.banner {
-  background-color: #2c7a4f;
-  color: white;
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.banner h1 {
-  margin: 0;
-  font-size: 2.5em;
-}
-
-.banner p {
-  font-size: 1.4em;
-  margin-top: 10px;
-}
-
-.about {
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.about h2 {
-  font-size: 2em;
-}
-
-.about p {
-  max-width: 600px;
-  margin: 0 auto;
-  font-size: 1.1em;
-  line-height: 1.6;
-}
+</body>
+</html>
